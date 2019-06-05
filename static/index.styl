@@ -3,8 +3,9 @@ font-md = 1.62rem
 font-sm = 1.3rem
 font-xs = 1rem
 line-height = 1.62
-color-default = #333
-color-muted = #888
+color-default = #fff
+color-bg = #212121
+color-muted = #9e9e9e
 color-border = #eee
 gutter-lg = 2rem
 gutter-md = 1rem
@@ -14,12 +15,13 @@ gutter-sm = 0.62rem
 	box-sizing border-box
 
 html
-	font-size 62.5%
+	font-size 80%
 html, body
 	height 100%
 body
 	font font-md/line-height 'Helvetica Neue', Helvetica, sans-serif
 	color color-default
+	background-color color-bg
 	margin 0
 	padding 0
 	display flex
@@ -213,10 +215,10 @@ svg
 	.tick text
 		font-size font-xs
 		fill rgba(0, 0, 0, 1)
-		stroke rgba(255, 255, 255, 0.4)
+		stroke rgba(255, 255, 255, .5)
 	.tick line
 		fill none
-		stroke rgba(0, 0, 0, 0.1)
+		stroke rgba(255,255,255, .5)
 	.xticks .tick line
 		stroke-dasharray 5,5
 

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 html,
 body {
@@ -12,7 +12,8 @@ body {
 }
 body {
   font: 1.62rem/1.62 'Helvetica Neue', Helvetica, sans-serif;
-  color: #333;
+  color: #fff;
+  background-color: #212121;
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -40,7 +41,7 @@ body {
   overflow: hidden;
 }
 small {
-  color: #888;
+  color: #9e9e9e;
   font-size: 1.3rem;
 }
 label,
@@ -129,7 +130,7 @@ header table th {
 header table th {
   text-align: right;
   font-weight: normal;
-  color: #888;
+  color: #9e9e9e;
 }
 header table td:last-child {
   padding-right: 0;
@@ -152,12 +153,12 @@ h1 {
 }
 h1 i {
   font-size: 2rem;
-  color: #888;
+  color: #9e9e9e;
 }
 h1 > small {
   padding-left: 0.62rem;
   font-size: 2rem;
-  color: #888;
+  color: #9e9e9e;
 }
 input[type='number'] {
   display: inline-block;
@@ -171,7 +172,7 @@ input[type='number'] {
   padding-bottom: 0;
 }
 input[type='number']:focus {
-  color: #333;
+  color: #fff;
 }
 article {
   -webkit-box-flex: 1;
@@ -255,7 +256,7 @@ aside section:last-child {
   border-bottom: 1px dashed #eee;
 }
 .apps-table tr.split {
-  color: #888;
+  color: #9e9e9e;
   cursor: pointer;
 }
 .apps-table tr.split > * {
@@ -283,7 +284,7 @@ aside section:last-child {
   font-size: 1rem;
   line-height: 1.3rem;
   display: block;
-  color: #888;
+  color: #9e9e9e;
 }
 .apps-table .name {
   padding-right: 0.62rem;
@@ -340,7 +341,7 @@ aside section:last-child {
 }
 .linklist li:not(:last-child):after {
   content: ', ';
-  color: #888;
+  color: #9e9e9e;
 }
 svg {
   outline: 1px solid #eee;
@@ -348,11 +349,11 @@ svg {
 svg .tick text {
   font-size: 1rem;
   fill: #000;
-  stroke: rgba(255,255,255,0.4);
+  stroke: rgba(255,255,255,0.5);
 }
 svg .tick line {
   fill: none;
-  stroke: rgba(0,0,0,0.1);
+  stroke: rgba(255,255,255,0.5);
 }
 svg .xticks .tick line {
   stroke-dasharray: 5, 5;
