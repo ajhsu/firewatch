@@ -1,7 +1,3 @@
-/** @jsx React.DOM */
-
-var cx = React.addons.classSet;
-
 var Apps = React.createClass({
 	getInitialState: function() {
 		return {
